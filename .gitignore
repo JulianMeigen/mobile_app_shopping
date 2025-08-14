@@ -1,3 +1,8 @@
+# Add env folder and Xcode folder
+python_env/
+# Xcode
+Xcode_env/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
