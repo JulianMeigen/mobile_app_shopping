@@ -1,9 +1,12 @@
 from kivy.app import App
-from kivy.uix.label import Label
+from kivy.uix.widget import Widget
+
+class TestWidget(Widget):
+    pass
 
 class RecipePlannerApp(App):
     def build(self):
-        return Label(text="Hello, Recipe Planner!")
+        return TestWidget()
 
 if __name__ == "__main__":
     RecipePlannerApp().run()
